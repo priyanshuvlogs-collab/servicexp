@@ -141,6 +141,7 @@
   function bindForm() {
     var form = qs("[data-job-form]");
     if (!form) return;
+    form.setAttribute("novalidate", "");
     form.addEventListener("submit", function (e) {
       syncPickerToForm();
       var status = qs("[data-form-status]", form);

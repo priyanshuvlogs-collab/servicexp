@@ -4,18 +4,18 @@
     <h2 class="section-title">{{ section.settings.heading }}</h2>
     <p class="section-sub">{{ section.settings.subheading }}</p>
     <div class="dispatch__grid">
-      {% form 'contact', class: 'card', data-job-form: '', data-platform: 'shopify', data-thanks: '/pages/thank-you' %}
+      {% form 'contact', class: 'card', data-job-form: '', data-platform: 'shopify', data-thanks: '/pages/thank-you', novalidate: 'novalidate' %}
         {% if form.posted_successfully? %}
           <p class="form-status" style="background:#e7f4eb;color:#134226;">Request received. If heat or AC is out, call {{ sx_phone }} now.</p>
         {% endif %}
         <p class="form-status" data-form-status hidden></p>
         <div class="field">
           <label class="field-label" for="job-name">Name</label>
-          <input id="job-name" type="text" name="contact[name]" autocomplete="name" required>
+          <input id="job-name" type="text" name="contact[name]" autocomplete="name">
         </div>
         <div class="field">
           <label class="field-label" for="job-mobile">Mobile</label>
-          <input id="job-mobile" type="tel" name="contact[phone]" autocomplete="tel" inputmode="tel" required>
+          <input id="job-mobile" type="tel" name="contact[phone]" autocomplete="tel" inputmode="tel">
           <span class="hint">Canadian number. We call this to confirm a window.</span>
         </div>
         <div class="field">

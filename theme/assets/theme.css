@@ -95,7 +95,9 @@ a:hover { color: var(--green-800); }
 }
 .sx-sticky__dot { opacity: 0.45; }
 @media (max-width: 700px) {
-  .hide-sm { display: none; }
+  .hide-sm { display: none !important; }
+  .sx-sticky .wrap { width: calc(100% - 1rem); }
+  .btn-call { padding: 0.45rem 0.7rem; font-size: 0.95rem; }
 }
 .btn-call {
   display: inline-flex;

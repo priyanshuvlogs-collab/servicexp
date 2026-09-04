@@ -32,12 +32,12 @@ CHROME_HEAD = """<!doctype html>
   <div class="sx-sticky">
     <div class="wrap">
       <div class="sx-sticky__meta">
-        <span>24/7 emergency dispatch</span>
-        <span class="sx-sticky__dot" aria-hidden="true">·</span>
-        <span>Markham-based · GTA</span>
+        <span>24/7 emergency</span>
+        <span class="sx-sticky__dot hide-sm" aria-hidden="true">·</span>
+        <span class="hide-sm">Markham-based · GTA</span>
       </div>
       <div class="sx-sticky__meta">
-        <a class="btn-ghost" href="{ads}#job-request">Book a visit</a>
+        <a class="btn-ghost hide-sm" href="{ads}#job-request">Book a visit</a>
         <a class="btn-call" href="{tel}">Call {phone}</a>
       </div>
     </div>
@@ -256,15 +256,15 @@ ADS_BODY = f"""
     <h2 class="section-title">Send the address. We’ll call back.</h2>
     <p class="section-sub">Name, mobile, and the job. Photo optional.</p>
     <div class="dispatch__grid">
-      <form class="card" data-job-form data-platform="preview" data-thanks="thank-you.html" action="thank-you.html" method="get">
+      <form class="card" data-job-form data-platform="preview" data-thanks="thank-you.html" action="thank-you.html" method="get" novalidate>
         <p class="form-status" data-form-status hidden></p>
         <div class="field">
           <label class="field-label" for="job-name">Name</label>
-          <input id="job-name" type="text" name="name" autocomplete="name" required>
+          <input id="job-name" type="text" name="name" autocomplete="name">
         </div>
         <div class="field">
           <label class="field-label" for="job-mobile">Mobile</label>
-          <input id="job-mobile" type="tel" name="mobile" autocomplete="tel" inputmode="tel" required>
+          <input id="job-mobile" type="tel" name="mobile" autocomplete="tel" inputmode="tel">
           <span class="hint">Canadian number. We call this to confirm a window.</span>
         </div>
         <div class="field">
