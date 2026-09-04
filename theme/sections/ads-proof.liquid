@@ -1,0 +1,52 @@
+<section class="proof">
+  <div class="wrap">
+    <h2>{{ section.settings.heading }}</h2>
+    <p class="section-sub">Paraphrased from reviews published on this site. <a href="{{ settings.google_reviews_url }}">Read Google reviews</a>.</p>
+    <div class="reviews">
+      <article class="review">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <blockquote>{{ section.settings.q1 }}</blockquote>
+        <footer>{{ section.settings.a1 }}</footer>
+      </article>
+      <article class="review">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <blockquote>{{ section.settings.q2 }}</blockquote>
+        <footer>{{ section.settings.a2 }}</footer>
+      </article>
+      <article class="review">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <blockquote>{{ section.settings.q3 }}</blockquote>
+        <footer>{{ section.settings.a3 }}</footer>
+      </article>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Ads proof",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "What customers actually wrote" },
+    {
+      "type": "textarea",
+      "id": "q1",
+      "label": "Quote 1 — condo fan coil",
+      "default": "Matthew was on time and diagnosed the fan coil quickly. Easy fix, completed promptly. He explained everything. Rates were reasonable."
+    },
+    { "type": "text", "id": "a1", "label": "Attribution 1", "default": "Stephanie — condo / fan coil" },
+    {
+      "type": "textarea",
+      "id": "q2",
+      "label": "Quote 2 — furnace board",
+      "default": "Paul checked the system Thursday night at 8pm. The heating circuit board needed replacing under warranty. He came back the next morning with a new thermostat. The furnace felt like new."
+    },
+    { "type": "text", "id": "a2", "label": "Attribution 2", "default": "Jamie — house / furnace board" },
+    {
+      "type": "textarea",
+      "id": "q3",
+      "label": "Quote 3 — AC heat wave",
+      "default": "Thanks for showing up and rescuing us when the AC died on the hottest day that summer. The new unit is quiet and actually cools the house."
+    },
+    { "type": "text", "id": "a3", "label": "Attribution 3", "default": "J. Hsu — house / AC on a heat wave" }
+  ]
+}
+{% endschema %}

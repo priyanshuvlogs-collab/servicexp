@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "kicker": "Houses · GTA",
+        "heading": "Furnace, AC, ductless, boiler — when the house goes quiet.",
+        "lede": "No heat at 11pm or an AC that died on a heat wave. Markham dispatch for single-family homes across the GTA.",
+        "form_url": "/pages/contact-residential-commercial-hvac-company-gta?job=heat&property=house#job-request",
+        "cta_label": "Request a house tech",
+        "body": "<p>A house job is usually a furnace that will not ignite, an outdoor AC that will not start, a ductless head that ices, or a boiler that leaves the floors cold. We repair and replace those systems. We also install ductless where there is no forced-air ductwork.</p><p>We do not promise a technician in twenty minutes. We take the call around the clock and assign the next free truck. After-hours rate may apply — we say so before we roll.</p><p>Ontario heat-pump and Enbridge offers change. We help check current rebate eligibility. We will not print a dollar amount on this page.</p>"
+      }
+    }
+  },
+  "order": ["main"]
+}

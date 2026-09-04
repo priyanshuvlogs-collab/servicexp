@@ -1,0 +1,42 @@
+<section class="systems">
+  <div class="wrap">
+    <h2>{{ section.settings.heading }}</h2>
+    <p class="section-sub">Icons, not essays. If your building uses something else, still call — bring the model off the indoor label.</p>
+    <div class="sys-grid">
+      <article class="sys">
+        <h3>Condo</h3>
+        <ul>
+          <li>Vertical fan coil (VFC)</li>
+          <li>Water-source heat pump</li>
+          <li>Magic Pak</li>
+          <li>PTAC / Sky Mark</li>
+        </ul>
+      </article>
+      <article class="sys">
+        <h3>Home</h3>
+        <ul>
+          <li>Furnace</li>
+          <li>AC</li>
+          <li>Ductless / mini-split</li>
+          <li>Boiler / in-floor</li>
+        </ul>
+      </article>
+      <article class="sys">
+        <h3>Commercial</h3>
+        <ul>
+          <li>Rooftop unit (RTU)</li>
+          <li>Makeup air (MAU)</li>
+          <li>Ventilation</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "What we fix",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "What we actually fix" }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,42 @@
+{% include 'brand' %}
+<section class="page-hero">
+  <div class="wrap">
+    <p class="kicker">High-rise HVAC · GTA</p>
+    <h1>{{ section.settings.heading }}</h1>
+    <p class="lede">{{ section.settings.lede }}</p>
+    <div class="hero__actions">
+      <a class="btn-call" href="{{ sx_tel }}">Call {{ sx_phone }}</a>
+      <a class="btn-outline" href="/pages/contact-residential-commercial-hvac-company-gta?job=condo&property=condo#job-request">Request a condo tech</a>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="wrap prose">
+    {{ section.settings.body }}
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Condo page",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "H1",
+      "default": "Condo fan coils and water-source heat pumps — not generic “quality.”"
+    },
+    {
+      "type": "textarea",
+      "id": "lede",
+      "label": "Lede",
+      "default": "If the closet unit is blowing warm air or the pan is leaking into the suite below, you need a high-rise tech, not a furnace flyer. We work VFC, WSHP, Magic Pak, PTAC, and Sky Mark."
+    },
+    {
+      "type": "richtext",
+      "id": "body",
+      "label": "Body",
+      "default": "<p>Most GTA towers do not use a basement furnace. Heat and cooling live in a vertical fan coil, a water-source heat pump, a Magic Pak through the wall, a PTAC, or a Sky Mark package. Those systems share building water or a condenser loop. A house tech who only carries furnace boards will stare at the closet and guess.</p><p>Tell us the make on the indoor label. We aim to diagnose in one visit. Same-day and one-trip language stays only if the owner still runs that policy — confirm before advertising it on ads.</p><p>After-hours condo calls are dispatch intent. We take the call; a truck is assigned when a technician is free. Management offices and unit owners can both book.</p>"
+    }
+  ]
+}
+{% endschema %}

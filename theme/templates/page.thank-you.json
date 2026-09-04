@@ -1,0 +1,6 @@
+{
+  "sections": {
+    "thanks": { "type": "thank-you", "settings": {} }
+  },
+  "order": ["thanks"]
+}

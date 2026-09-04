@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "kicker": "Service area · Richmond Hill",
+        "heading": "Richmond Hill: Yonge condos and houses that still use a basement furnace.",
+        "lede": "North of Major Mackenzie the houses get older. Along Yonge the buildings get taller. Same Markham dispatch number.",
+        "form_url": "/pages/contact-residential-commercial-hvac-company-gta?job=heat#job-request",
+        "cta_label": "Request a Richmond Hill tech",
+        "body": "<p>Richmond Hill is not a find-replace of Markham. The Yonge corridor from 16th to Elgin Mills is condo and rental high-rise: closet fan coils, water-source heat pumps, and the occasional Magic Pak. Further north and east — Oak Ridges, Jefferson, the streets off Bathurst — you still get 90s furnaces, outdoor AC on a pad, and homeowners who call at 11pm when the house hits 12°C.</p><p>We drive from Markham. That matters on a no-heat night because the truck is already on the 404/407 side of York Region, not coming from Mississauga. It does not mean a 20-minute promise. 24/7 means we take the emergency call and aim to dispatch.</p><p>Condo property managers here often share a riser with several suites. If your pan is overflowing, the suite below is already involved. Send the building name, suite, and the make on the unit. Stephanie’s published review on this site is the pattern we want: a tech who can diagnose a fan coil without guessing.</p><p>House work is still the majority of winter calls: ignition failure, cracked heat exchanger suspicion, a thermostat that was “already replaced.” Paul showing up in the evening to read a furnace board — that review is on the site — is the house version of the same job. Summer is outdoor AC that will not start after a heat wave, same as J. Hsu wrote.</p><p>Plaza rooftops sit along Yonge and Major Mackenzie. If the RTU is down, give us the unit number and whether the kitchen hood or makeup air is also off. We service common rooftop brands; we do not invent dealer badges.</p><p>Richmond Hill replacements sometimes qualify for current heat-pump offers. We help check eligibility. We will not quote a rebate dollar on this page. Financing, if any, is discussed on the call — not advertised as a rate.</p><p>Common postals: L4B, L4C, L4E, L4S. Oak Ridges no-heat and a Yonge-and-16th fan coil are different tickets. Put the property type on the form so we do not send a rooftop kit to a basement furnace.</p>"
+      }
+    }
+  },
+  "order": ["main"]
+}

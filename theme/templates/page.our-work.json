@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "kicker": "Our work",
+        "heading": "Job photos belong here — not stock HVAC.",
+        "lede": "Add real install and repair photos in the Shopify customizer. We will not invent a gallery.",
+        "body": "<p>Until the owner uploads job photos, use the ads landing reviews and call (416) 637-1678.</p>"
+      }
+    }
+  },
+  "order": ["main"]
+}

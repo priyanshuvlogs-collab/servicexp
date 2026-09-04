@@ -1,0 +1,30 @@
+{% include 'brand' %}
+<header class="sx-header">
+  <div class="wrap">
+    <a class="logo" href="{{ routes.root_url }}">
+      <img src="{{ 'logo.png' | asset_url }}" width="118" height="60" alt="Service Express">
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-doors">
+        <li><a href="/pages/condo-hvac-repair-maintenance"{% if request.path contains 'condo' %} aria-current="page"{% endif %}>Condo</a></li>
+        <li><a href="/pages/residential-hvac-contractor-gta"{% if request.path contains 'residential' %} aria-current="page"{% endif %}>Home</a></li>
+        <li><a href="/pages/commercial-hvac-contractor-gta"{% if request.path contains 'commercial-hvac' %} aria-current="page"{% endif %}>Commercial</a></li>
+      </ul>
+    </nav>
+    <a class="nav-contact" href="/pages/contact-residential-commercial-hvac-company-gta">Contact</a>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+  </div>
+  <div id="mobile-nav" class="nav-panel" data-nav-panel hidden>
+    <a href="/pages/condo-hvac-repair-maintenance">Condo</a>
+    <a href="/pages/residential-hvac-contractor-gta">Home</a>
+    <a href="/pages/commercial-hvac-contractor-gta">Commercial</a>
+    <a href="/pages/contact-residential-commercial-hvac-company-gta">Contact</a>
+    <a href="{{ sx_tel }}">Call {{ sx_phone }}</a>
+  </div>
+</header>
+{% schema %}
+{
+  "name": "Header",
+  "settings": []
+}
+{% endschema %}

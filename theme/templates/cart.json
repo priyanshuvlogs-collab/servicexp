@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "heading": "This is a service company, not a cart.",
+        "lede": "Call (416) 637-1678 or request a tech.",
+        "cta_label": "Request a tech"
+      }
+    }
+  },
+  "order": ["main"]
+}

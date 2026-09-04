@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "kicker": "Service area · Markham",
+        "heading": "Markham HVAC from the shop on Hood Road.",
+        "lede": "This is home base. Unionville and Cornell houses, Hwy 7 condos, and plaza rooftops along Woodbine and 14th. Call (416) 637-1678.",
+        "form_url": "/pages/contact-residential-commercial-hvac-company-gta?job=heat#job-request",
+        "cta_label": "Request a Markham tech",
+        "body": "<p>Service Express is a Markham shop. The address we show on the ads landing page is 410 Hood Road — confirm with the owner if public listings should use Esna Park instead. Trucks leave this side of town for no-heat calls in older two-storey homes, fan-coil suites along Highway 7, and rooftop units on industrial plazas that bake in July and freeze in January.</p><p>Markham housing is mixed on purpose. Unionville and the streets west of Main still run mid-efficiency furnaces and aging outdoor AC. Cornell and Wismer have newer forced-air systems and more heat pumps. Along Highway 7 and Warden, high-rises use vertical fan coils or water-source heat pumps. A tech who only carries residential boards will waste a trip in those closets. Tell us the building and the label on the indoor unit.</p><p>Commercial work here is often a single RTU over a unit in a plaza, not a downtown office tower. Makeup air and washroom exhaust fail after a long weekend. We want the unit letter, the rooftop make if you can read the plate, and whether staff can stay open without cooling.</p><p>Reviews published on this site name technicians — Paul, Matthew, Ken, Alan — for evening furnace boards, heat-wave AC, and condo fan coils. We do not run a fake review widget. The on-site claim is more than 15,000 customers over the past decade. Google sits near 4.8 with a large review volume.</p><p>If you are in Markham with no heat tonight, call. 24/7 is dispatch intent: we answer and assign the next free truck. After-hours rate may apply. We aim to diagnose in one visit. We will not print rebate dollar amounts; we help check current Enbridge and Save on Energy eligibility when you replace a system.</p><p>Postal codes we see most from this shop: L3R, L3P, L6C, L6E. If you are in Unionville, buttonville industrial, or a Hwy 7 suite, say which — the truck stock changes. Do not browse Products from an ad; use the dispatch form on the contact slug and keep that URL live.</p>"
+      }
+    }
+  },
+  "order": ["main"]
+}

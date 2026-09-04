@@ -1,0 +1,7 @@
+{
+  "sections": {
+    "main": { "type": "condo-hero", "settings": {} },
+    "systems": { "type": "ads-systems", "settings": {} }
+  },
+  "order": ["main", "systems"]
+}

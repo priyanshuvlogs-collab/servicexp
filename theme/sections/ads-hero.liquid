@@ -1,0 +1,35 @@
+{% include 'brand' %}
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div>
+      <p class="kicker">{{ section.settings.kicker }}</p>
+      <h1 data-hero-h1>{{ section.settings.heading }}</h1>
+      <p class="lede">{{ section.settings.subheading }}</p>
+      <div class="hero__actions">
+        <a class="btn-call btn-call--xl" href="{{ sx_tel }}" style="width:auto;min-width:16rem;">Call {{ sx_phone }}</a>
+        <a class="btn-outline" href="#job-request">Request a tech</a>
+      </div>
+      <ul class="chips">
+        <li>{{ settings.google_rating | default: '4.8' }} Google</li>
+        <li>15,000+ jobs claimed</li>
+        <li>24/7 dispatch</li>
+        <li>Condo + residential + commercial</li>
+      </ul>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Ads hero",
+  "settings": [
+    { "type": "text", "id": "kicker", "label": "Kicker", "default": "Markham dispatch · houses, condos, rooftops" },
+    { "type": "text", "id": "heading", "label": "Default H1", "default": "GTA HVAC repair and install — houses, condos, and rooftops." },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Markham-based. Condo fan coils and heat pumps, residential furnace/AC, commercial rooftop. Call now or send the address."
+    }
+  ]
+}
+{% endschema %}

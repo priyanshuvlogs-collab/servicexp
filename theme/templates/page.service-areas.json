@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "kicker": "GTA service areas",
+        "heading": "Markham shop. Trucks into York and Toronto.",
+        "lede": "Four city pages with local jobs — not the same paragraph with the city name swapped.",
+        "body": "<p><a href=\"/pages/service-areas/hvac-contractor-markham-on\">Markham</a> · <a href=\"/pages/service-areas/hvac-contractor-richmond-hill-on\">Richmond Hill</a> · <a href=\"/pages/service-areas/hvac-contractor-scarborough-on\">Scarborough</a> · <a href=\"/pages/service-areas/hvac-contractor-toronto-on\">Toronto</a></p><p>Surrounding GTA communities: call (416) 637-1678 and give the postal code. We take the job if a truck can reach you.</p>"
+      }
+    }
+  },
+  "order": ["main"]
+}

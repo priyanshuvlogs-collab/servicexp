@@ -1,0 +1,34 @@
+{% include 'brand' %}
+<section class="nap" id="map">
+  <div class="wrap">
+    <h2>Markham shop · GTA trucks</h2>
+    <div class="nap-grid">
+      <div class="map-frame">
+        <iframe
+          title="Map to Service Express in Markham"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q={{ sx_address | url_encode }}&hl=en&z=16&output=embed">
+        </iframe>
+      </div>
+      <div class="card">
+        <ul class="nap-list">
+          <li><span>Company</span> Service Express</li>
+          <li><span>Phone</span> <a href="{{ sx_tel }}">{{ sx_phone }}</a></li>
+          <li><span>Email</span> <a href="mailto:{{ sx_email }}">{{ sx_email }}</a></li>
+          <li><span>Address</span> {{ sx_address }}</li>
+          <li><span>Hours</span> 24/7 emergency dispatch. After-hours rate may apply.</li>
+        </ul>
+        {% if settings.tssa_licence != blank %}
+          <p>TSSA / gas technician licence: {{ settings.tssa_licence }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Map and NAP",
+  "settings": []
+}
+{% endschema %}

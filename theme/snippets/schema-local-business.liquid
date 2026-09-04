@@ -1,0 +1,47 @@
+{% include 'brand' %}
+{%- assign geo_parts = sx_geo | split: ',' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["HVACBusiness", "LocalBusiness"],
+  "name": {{ sx_brand | json }},
+  "url": {{ shop.url | json }},
+  "image": {{ 'logo.png' | asset_url | prepend: request.origin | json }},
+  "telephone": "+1-416-637-1678",
+  "email": {{ sx_email | json }},
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ sx_address | split: ',' | first | json }},
+    "addressLocality": "Markham",
+    "addressRegion": "ON",
+    "postalCode": {{ sx_address | split: 'ON ' | last | json }},
+    "addressCountry": "CA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ geo_parts[0] | strip | json }},
+    "longitude": {{ geo_parts[1] | strip | json }}
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Markham" },
+    { "@type": "City", "name": "Richmond Hill" },
+    { "@type": "City", "name": "Scarborough" },
+    { "@type": "City", "name": "Toronto" },
+    { "@type": "AdministrativeArea", "name": "Greater Toronto Area" }
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59",
+    "description": "24/7 emergency dispatch intent. After-hours rate may apply."
+  },
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ settings.google_rating | default: '4.8' | json }},
+    "bestRating": "5",
+    "reviewCount": "400"
+  }
+}
+</script>

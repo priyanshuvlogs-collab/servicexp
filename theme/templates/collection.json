@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "heading": "Equipment",
+        "lede": "Use Price this system on each card. Ads traffic should land on the dispatch form.",
+        "form_url": "/pages/hvac-products",
+        "cta_label": "See systems"
+      }
+    }
+  },
+  "order": ["main"]
+}

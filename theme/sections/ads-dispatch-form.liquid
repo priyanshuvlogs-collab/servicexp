@@ -1,0 +1,60 @@
+{% include 'brand' %}
+<section class="dispatch" id="job-request">
+  <div class="wrap">
+    <h2 class="section-title">{{ section.settings.heading }}</h2>
+    <p class="section-sub">{{ section.settings.subheading }}</p>
+    <div class="dispatch__grid">
+      {% form 'contact', class: 'card', data-job-form: '', data-platform: 'shopify', data-thanks: '/pages/thank-you' %}
+        {% if form.posted_successfully? %}
+          <p class="form-status" style="background:#e7f4eb;color:#134226;">Request received. If heat or AC is out, call {{ sx_phone }} now.</p>
+        {% endif %}
+        <p class="form-status" data-form-status hidden></p>
+        <div class="field">
+          <label class="field-label" for="job-name">Name</label>
+          <input id="job-name" type="text" name="contact[name]" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label class="field-label" for="job-mobile">Mobile</label>
+          <input id="job-mobile" type="tel" name="contact[phone]" autocomplete="tel" inputmode="tel" required>
+          <span class="hint">Canadian number. We call this to confirm a window.</span>
+        </div>
+        <div class="field">
+          <label class="field-label" for="job-address">Address or intersection</label>
+          <input id="job-address" type="text" name="contact[address]" autocomplete="street-address">
+        </div>
+        <div class="field">
+          <label class="field-label" for="job-notes">Anything the tech should know (optional)</label>
+          <textarea id="job-notes" name="notes"></textarea>
+        </div>
+        <div class="field">
+          <label class="field-label" for="job-photo">Photo of the unit label (optional)</label>
+          <input id="job-photo" type="file" accept="image/*" capture="environment">
+          <span class="hint">Shopify contact cannot attach files. Text the photo to {{ sx_phone }} after you send, or connect Formspree in theme settings.</span>
+        </div>
+        <label class="check">
+          <input type="checkbox" name="contact[emergency_today]" value="Yes">
+          <span>Emergency — need someone today</span>
+        </label>
+        {% render 'utm-fields' %}
+        <p style="margin:0.85rem 0 0.6rem;color:var(--ink-soft);font-size:0.92rem;">We’ll call to confirm a window. This creates a job, not a mailing list.</p>
+        <button class="btn-submit" type="submit">Send — we’ll call to confirm a window</button>
+      {% endform %}
+
+      <aside class="card call-card">
+        <h3>Faster: tap to call</h3>
+        <p>No heat at 11pm, condo blowing warm air, or an RTU down on a plaza — call dispatch.</p>
+        <a class="btn-call btn-call--xl" href="{{ sx_tel }}">Call {{ sx_phone }}</a>
+        <p class="hint" style="color:#cfe0d4;margin-top:0.85rem;">24/7 means we take emergency calls and aim to dispatch. It is not a promise a technician is 20 minutes away.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Ads dispatch form",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Send the address. We’ll call back." },
+    { "type": "text", "id": "subheading", "label": "Subheading", "default": "Name, mobile, and the job. Photo optional." }
+  ]
+}
+{% endschema %}

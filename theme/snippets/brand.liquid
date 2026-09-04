@@ -1,0 +1,14 @@
+{%- comment -%}
+  One public address. Owner confirms Hood vs Esna Park in theme settings.
+{%- endcomment -%}
+{%- if settings.public_address == 'esna' -%}
+  {%- assign sx_address = settings.address_esna -%}
+  {%- assign sx_geo = settings.geo_esna -%}
+{%- else -%}
+  {%- assign sx_address = settings.address_hood -%}
+  {%- assign sx_geo = settings.geo_hood -%}
+{%- endif -%}
+{%- assign sx_phone = settings.phone_display | default: '(416) 637-1678' -%}
+{%- assign sx_tel = settings.phone_href | default: 'tel:+14166371678' -%}
+{%- assign sx_email = settings.email | default: 'info@servicexpress.ca' -%}
+{%- assign sx_brand = settings.brand_name | default: 'Service Express' -%}

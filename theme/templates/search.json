@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "heading": "Search",
+        "lede": "Or skip search and call dispatch.",
+        "cta_label": "Request a tech"
+      }
+    }
+  },
+  "order": ["main"]
+}

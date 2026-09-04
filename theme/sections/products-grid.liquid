@@ -1,0 +1,38 @@
+{% include 'brand' %}
+<section class="page-hero">
+  <div class="wrap">
+    <p class="kicker">Equipment · not a catalogue browse</p>
+    <h1>Price the system. Don’t wander the shop.</h1>
+    <p class="lede">Ads visitors should not shop Products. If you landed here anyway, pick the system and send a job — we call back with a window, not a newsletter.</p>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <div class="product-grid">
+      {% for block in section.blocks %}
+        <article class="door">
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.blurb }}</p>
+          <p><a class="btn-primary" href="/pages/contact-residential-commercial-hvac-company-gta?product={{ block.settings.sku }}&job={{ block.settings.job }}#job-request">Price this system</a></p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Products grid",
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "textarea", "id": "blurb", "label": "Blurb" },
+        { "type": "text", "id": "sku", "label": "Prefill key" },
+        { "type": "text", "id": "job", "label": "Job param" }
+      ]
+    }
+  ]
+}
+{% endschema %}

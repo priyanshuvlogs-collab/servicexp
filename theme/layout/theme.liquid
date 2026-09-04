@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page_title }}{% unless page_title contains 'Service Express' %} | Service Express{% endunless %}</title>
+  {% if page_description %}
+    <meta name="description" content="{{ page_description | escape }}">
+  {% endif %}
+  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Sans+3:wght@450;600;650;700;750&display=swap" rel="stylesheet">
+  {{ 'theme.css' | asset_url | stylesheet_tag }}
+  {{ content_for_header }}
+  {% render 'schema-local-business' %}
+</head>
+<body>
+  <a class="skip-link" href="#job-request">Skip to job request</a>
+  {% section 'sticky-dispatch' %}
+  {% section 'header' %}
+  <main id="main">
+    {{ content_for_layout }}
+  </main>
+  {% section 'footer' %}
+  {% include 'brand' %}
+  <div class="dock" role="navigation" aria-label="Call or book">
+    <a class="btn-call" href="{{ sx_tel }}">Call {{ sx_phone }}</a>
+    <a class="btn-primary" href="#job-request">Request a tech</a>
+  </div>
+  {{ 'theme.js' | asset_url | script_tag }}
+</body>
+</html>

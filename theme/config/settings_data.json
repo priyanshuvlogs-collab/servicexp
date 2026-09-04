@@ -1,0 +1,22 @@
+{
+  "current": {
+    "brand_name": "Service Express",
+    "phone_display": "(416) 637-1678",
+    "phone_href": "tel:+14166371678",
+    "email": "info@servicexpress.ca",
+    "public_address": "hood",
+    "address_hood": "410 Hood Rd, Markham, ON L3R 3X2",
+    "address_esna": "226 Esna Park Dr #2, Markham, ON L3R 1H3",
+    "geo_hood": "43.824766,-79.336890",
+    "geo_esna": "43.826900,-79.337800",
+    "tssa_licence": "",
+    "google_reviews_url": "https://www.google.com/maps/search/?api=1&query=Service+Express+410+Hood+Rd+Markham",
+    "google_rating": "4.8",
+    "form_endpoint": "",
+    "sections": {
+      "header": { "type": "header" },
+      "footer": { "type": "footer" },
+      "sticky-dispatch": { "type": "sticky-dispatch" }
+    }
+  }
+}

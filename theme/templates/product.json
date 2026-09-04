@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "kicker": "Product",
+        "heading": "Price this system",
+        "lede": "Don’t browse. Send the job.",
+        "form_url": "/pages/contact-residential-commercial-hvac-company-gta?job=install#job-request",
+        "cta_label": "Price this system"
+      }
+    }
+  },
+  "order": ["main"]
+}

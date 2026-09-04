@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "kicker": "Service area · Toronto",
+        "heading": "Toronto HVAC for closet fan coils and houses that still have a furnace.",
+        "lede": "Downtown the system is in the closet. East York and the Annex still have basements. Same Markham number.",
+        "form_url": "/pages/contact-residential-commercial-hvac-company-gta?job=condo#job-request",
+        "cta_label": "Request a Toronto tech",
+        "body": "<p>Toronto is where the condo wedge is loudest. New towers and many 80s–2000s buildings heat and cool from a vertical fan coil or a water-source heat pump in a hall closet. The complaint is almost always the same: warm air in July, no heat in January, or water on the laminate. PTAC and Magic Pak show up in older rentals and some mid-rises. Sky Mark packages appear on a shorter list of buildings. Read the label. Do not tell us you have “HVAC.”</p><p>Houses are a different job. East York, the Danforth side streets, parts of North York that people still call Toronto, and the Annex mixes: mid-efficiency furnaces, boilers, and more ductless every year because there is no room for ducts. Rick’s published 9pm furnace call and Jamie’s Thursday-night board replacement are house stories. Stephanie’s fan-coil diagnosis is the tower story. We keep them separate on the form so the truck is stocked.</p><p>Commercial rooftops in Toronto are often a single RTU over a restaurant or shop on St. Clair, Danforth, or a small industrial bay. Access, parking, and after-hours dock keys matter more than a pretty contact card. Send the intersection and the unit letter.</p><p>We drive in from Markham. Downtown parking and elevator waits add time. 24/7 is still dispatch intent, not a 20-minute SLA. If heat is out, call (416) 637-1678; do not wait on the form callback.</p><p>We help check current heat-pump rebate eligibility. We will not publish “you get $X.” We do not invent TSSA ticket numbers. The licence line in the footer stays blank until the owner supplies a real one.</p><p>Google sits near 4.8 with a large review volume. The 15,000+ customers line is an on-site claim, not a third-party audit. Technicians named in public reviews include Paul, Ken, Alan, and Matthew. No fake widgets on this page.</p><p>Downtown parking and suite access beat any slogan. Put the buzzer code and the intersection on the form. If the building uses a lockbox or a superintendent, say so. We still want the indoor-unit make before we guess at a board.</p>"
+      }
+    }
+  },
+  "order": ["main"]
+}

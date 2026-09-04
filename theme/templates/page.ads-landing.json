@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "hero": { "type": "ads-hero", "settings": {} },
+    "picker": { "type": "ads-job-picker", "settings": {} },
+    "form": { "type": "ads-dispatch-form", "settings": {} },
+    "proof": { "type": "ads-proof", "settings": {} },
+    "systems": { "type": "ads-systems", "settings": {} },
+    "map": { "type": "ads-map", "settings": {} },
+    "faq": { "type": "ads-faq", "settings": {} }
+  },
+  "order": ["hero", "picker", "form", "proof", "systems", "map", "faq"]
+}

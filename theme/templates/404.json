@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "kicker": "Page missing",
+        "heading": "That page is gone. The phone still works.",
+        "lede": "If heat or AC is out, call (416) 637-1678. To book a visit, use the dispatch form.",
+        "body": "<p><a href=\"/pages/contact-residential-commercial-hvac-company-gta\">Request a tech</a></p>",
+        "cta_label": "Request a tech"
+      }
+    }
+  },
+  "order": ["main"]
+}

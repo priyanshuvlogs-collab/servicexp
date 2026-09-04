@@ -1,0 +1,112 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Service Express Dispatch",
+    "theme_version": "1.0.0",
+    "theme_author": "Service Express",
+    "theme_documentation_url": "https://www.servicexp.ca",
+    "theme_support_url": "mailto:info@servicexpress.ca"
+  },
+  {
+    "name": "Firm",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Customer-facing brand is Service Express. XP is the domain only. Show one address after the owner confirms Hood vs Esna Park."
+      },
+      {
+        "type": "text",
+        "id": "brand_name",
+        "label": "Brand name",
+        "default": "Service Express"
+      },
+      {
+        "type": "text",
+        "id": "phone_display",
+        "label": "Phone display",
+        "default": "(416) 637-1678"
+      },
+      {
+        "type": "text",
+        "id": "phone_href",
+        "label": "Click-to-call href",
+        "default": "tel:+14166371678"
+      },
+      {
+        "type": "text",
+        "id": "email",
+        "label": "Email",
+        "default": "info@servicexpress.ca"
+      },
+      {
+        "type": "select",
+        "id": "public_address",
+        "label": "Public address (one only)",
+        "info": "Do not show both. Confirm with owner before launch.",
+        "options": [
+          { "value": "hood", "label": "410 Hood Rd, Markham (current ads page)" },
+          { "value": "esna", "label": "226 Esna Park Dr #2, Markham (other public listing)" }
+        ],
+        "default": "hood"
+      },
+      {
+        "type": "text",
+        "id": "address_hood",
+        "label": "Hood Road address",
+        "default": "410 Hood Rd, Markham, ON L3R 3X2"
+      },
+      {
+        "type": "text",
+        "id": "address_esna",
+        "label": "Esna Park address",
+        "default": "226 Esna Park Dr #2, Markham, ON L3R 1H3"
+      },
+      {
+        "type": "text",
+        "id": "geo_hood",
+        "label": "Hood geo (lat,lng)",
+        "default": "43.824766,-79.336890"
+      },
+      {
+        "type": "text",
+        "id": "geo_esna",
+        "label": "Esna geo (lat,lng)",
+        "default": "43.826900,-79.337800"
+      },
+      {
+        "type": "text",
+        "id": "tssa_licence",
+        "label": "TSSA / gas technician licence",
+        "info": "Leave blank unless the owner supplies a real number. Never invent one."
+      },
+      {
+        "type": "text",
+        "id": "google_reviews_url",
+        "label": "Google reviews URL",
+        "default": "https://www.google.com/maps/search/?api=1&query=Service+Express+410+Hood+Rd+Markham"
+      },
+      {
+        "type": "text",
+        "id": "google_rating",
+        "label": "Google rating claim",
+        "default": "4.8"
+      },
+      {
+        "type": "url",
+        "id": "ads_landing_path",
+        "label": "Ads landing page"
+      },
+      {
+        "type": "url",
+        "id": "thank_you_path",
+        "label": "Thank-you page"
+      },
+      {
+        "type": "text",
+        "id": "form_endpoint",
+        "label": "Form endpoint (Formspree / webhook)",
+        "info": "Leave blank to use Shopify contact form. Photo uploads need a webhook — Shopify contact cannot attach files."
+      }
+    ]
+  }
+]

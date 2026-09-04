@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "heading": "{{ page.title }}",
+        "lede": "",
+        "body": "{{ page.content }}"
+      }
+    }
+  },
+  "order": ["main"]
+}

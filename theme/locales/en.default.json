@@ -1,0 +1,11 @@
+{
+  "general": {
+    "brand": "Service Express",
+    "phone": "(416) 637-1678"
+  },
+  "accessibility": {
+    "skip": "Skip to job request",
+    "menu": "Open menu",
+    "close": "Close menu"
+  }
+}

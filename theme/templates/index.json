@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "hero": { "type": "home-hero", "settings": {} },
+    "doors": { "type": "home-doors", "settings": {} },
+    "systems": { "type": "ads-systems", "settings": {} },
+    "proof": { "type": "ads-proof", "settings": {} }
+  },
+  "order": ["hero", "doors", "systems", "proof"]
+}

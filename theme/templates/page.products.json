@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "grid": {
+      "type": "products-grid",
+      "blocks": {
+        "furnace": {
+          "type": "product",
+          "settings": {
+            "title": "Furnace and AC",
+            "blurb": "Residential heating and cooling. Price the install — we call back.",
+            "sku": "furnace",
+            "job": "install"
+          }
+        },
+        "fancoil": {
+          "type": "product",
+          "settings": {
+            "title": "Condo fan coil",
+            "blurb": "Vertical fan coil replace and retrofit for high-rise suites.",
+            "sku": "fan-coil",
+            "job": "condo"
+          }
+        },
+        "wshp": {
+          "type": "product",
+          "settings": {
+            "title": "Condo heat pump",
+            "blurb": "Water-source heat pumps in newer towers.",
+            "sku": "wshp",
+            "job": "condo"
+          }
+        },
+        "boiler": {
+          "type": "product",
+          "settings": {
+            "title": "Boiler and in-floor",
+            "blurb": "Hydronic boilers, in-floor, snow melt.",
+            "sku": "boiler",
+            "job": "install"
+          }
+        },
+        "rtu": {
+          "type": "product",
+          "settings": {
+            "title": "Commercial rooftop and MAU",
+            "blurb": "Rooftop, ventilation, makeup air.",
+            "sku": "rtu",
+            "job": "commercial"
+          }
+        },
+        "ductless": {
+          "type": "product",
+          "settings": {
+            "title": "Ductless split",
+            "blurb": "Mini-splits where there is no ductwork.",
+            "sku": "ductless",
+            "job": "install"
+          }
+        }
+      },
+      "block_order": ["furnace", "fancoil", "wshp", "boiler", "rtu", "ductless"]
+    }
+  },
+  "order": ["grid"]
+}

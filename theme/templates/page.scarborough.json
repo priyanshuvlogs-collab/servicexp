@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "kicker": "Service area · Scarborough",
+        "heading": "Scarborough HVAC: older bungalows, Kennedy high-rises, plaza rooftops.",
+        "lede": "A Markham shop that already runs east for fan coils and 20-year furnaces. Call (416) 637-1678.",
+        "form_url": "/pages/contact-residential-commercial-hvac-company-gta?job=cooling#job-request",
+        "cta_label": "Request a Scarborough tech",
+        "body": "<p>Scarborough jobs split three ways, and they are not the same truck kit. West Hill and the bungalow streets off Kingston Road still run aging furnaces and outdoor AC that have survived too many humid summers. The towers around Scarborough Town Centre, Kennedy, and the lake-facing buildings use fan coils and heat pumps in closets that rust from condensate. The plazas on Eglinton, Lawrence, and Sheppard lose rooftop units in July and call when the pharmacy is 30°C.</p><p>We are based in Markham, so the 401/404 run is a normal east dispatch, not a special trip. That is geography, not a guarantee of arrival time. Emergency service means we answer and assign the next free technician. After-hours rate may apply; we say so before we roll.</p><p>Condo calls here often start as “the AC is leaking.” That is usually a clogged condensate, a failed pump, or a coil that iced because the filter has not been changed since the last owner. Ken’s public write-up of a leaking suite — other companies stalled, then a patient walk-around — is the job we want described on the form: brand, leak vs no cooling vs no heat.</p><p>House no-heat in Scarborough in January is still a furnace. Bring the age if you know it. A 20-year unit that we get running for the night, then quote a replacement the next day, is the Jim Mulroney pattern already published on the testimonials page. We aim to diagnose in one visit. Same-day / one-trip marketing stays off this page unless the owner confirms the policy is current.</p><p>Commercial: tell us the plaza, the unit letter, and whether kitchen makeup air failed with the RTU. We work rooftops and ventilation. We do not pretend every job is a condo fan coil.</p><p>Rebates: we help check current Enbridge and Save on Energy rules for heat pumps. No invented dollar amounts. One public address only — Hood Road unless the owner switches the theme setting to Esna Park.</p><p>Postals we dispatch into: M1B, M1E, M1G, M1H, M1P, M1T. If you are in a Kingston Road bungalow, say furnace. If you are near STC, say fan coil or heat pump. That one word changes what is on the truck.</p>"
+      }
+    }
+  },
+  "order": ["main"]
+}

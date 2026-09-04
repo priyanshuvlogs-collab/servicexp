@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-prose",
+      "settings": {
+        "kicker": "Plazas · shops · light commercial",
+        "heading": "Rooftop down? Ventilation off? Call, don’t email a card.",
+        "lede": "RTU, makeup air, and ventilation for GTA plazas and shops. Markham-based. We service common rooftop brands — tell us the model on the data plate.",
+        "form_url": "/pages/contact-residential-commercial-hvac-company-gta?job=commercial&property=commercial#job-request",
+        "cta_label": "Request a rooftop tech",
+        "body": "<p>When a rooftop unit fails on a strip plaza, the suite overheats or freezes and the tenant calls the landlord. That is a dispatch job. Send the address, unit letter, and rooftop make if you have it.</p><p>We work rooftop units, makeup air, and ventilation. We do not invent dealer badges. If you need a written quote for a replacement, use New install / quote on the form.</p>"
+      }
+    }
+  },
+  "order": ["main"]
+}

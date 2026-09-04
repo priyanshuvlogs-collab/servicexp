@@ -1,0 +1,44 @@
+{% include 'brand' %}
+<footer class="sx-footer">
+  <div class="wrap">
+    <div>
+      <h2>Service Express</h2>
+      <p>Markham HVAC for houses, condos, and rooftops. 24/7 emergency dispatch — we take the call; a truck is assigned when a technician is free.</p>
+      <p>
+        <a href="{{ sx_tel }}">{{ sx_phone }}</a><br>
+        <a href="mailto:{{ sx_email }}">{{ sx_email }}</a><br>
+        {{ sx_address }}
+      </p>
+    </div>
+    <div>
+      <h3>Book a job</h3>
+      <ul>
+        <li><a href="/pages/contact-residential-commercial-hvac-company-gta">Request a tech</a></li>
+        <li><a href="/pages/condo-hvac-repair-maintenance">Condo fan coil / heat pump</a></li>
+        <li><a href="/pages/residential-hvac-contractor-gta">Home furnace &amp; AC</a></li>
+        <li><a href="/pages/commercial-hvac-contractor-gta">Commercial rooftop</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Areas</h3>
+      <ul>
+        <li><a href="/pages/service-areas/hvac-contractor-markham-on">Markham</a></li>
+        <li><a href="/pages/service-areas/hvac-contractor-richmond-hill-on">Richmond Hill</a></li>
+        <li><a href="/pages/service-areas/hvac-contractor-scarborough-on">Scarborough</a></li>
+        <li><a href="/pages/service-areas/hvac-contractor-toronto-on">Toronto</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap legal">
+    <p>© {{ 'now' | date: '%Y' }} Service Express. Domain: servicexp.ca. Customer-facing name: Service Express.</p>
+    {% if settings.tssa_licence != blank %}
+      <p>TSSA / gas technician licence: {{ settings.tssa_licence }}</p>
+    {% endif %}
+  </div>
+</footer>
+{% schema %}
+{
+  "name": "Footer",
+  "settings": []
+}
+{% endschema %}
